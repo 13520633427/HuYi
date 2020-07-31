@@ -21,7 +21,7 @@ public class VlogManageUser {
 
     private String password;
 
-    private Integer phone;
+    private String phone;
 
     private Integer status;
 
