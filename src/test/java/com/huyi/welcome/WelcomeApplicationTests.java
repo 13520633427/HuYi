@@ -1,4 +1,4 @@
-package com.huyi.welcome.welcome;
+package com.huyi.welcome;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
