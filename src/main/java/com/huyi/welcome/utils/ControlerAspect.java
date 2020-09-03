@@ -37,7 +37,6 @@ public class ControlerAspect {
         log.info("请求类和方法={}",joinPoint.getSignature().getDeclaringTypeName()+"."+joinPoint.getSignature().getName());
         //请求参数
         log.info("请求参数={}",joinPoint.getArgs());
-        System.out.println("before");
     }
 
     @After("log()")

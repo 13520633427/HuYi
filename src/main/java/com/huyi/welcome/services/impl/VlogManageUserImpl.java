@@ -14,8 +14,9 @@ public class VlogManageUserImpl implements VlogManageUserServices {
     @Autowired
     private VlogManageUserMapper manageUserMapper;
 
+
     @Override
     public List<VlogManageUser> getManageUser() {
-        return manageUserMapper.selectAll();
+     return null;
     }
 }

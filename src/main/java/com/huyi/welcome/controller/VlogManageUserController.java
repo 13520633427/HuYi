@@ -26,4 +26,11 @@ public class VlogManageUserController {
         }
     }
 
+    @RequestMapping("/Test")
+    public Result getTest(){
+        //异步
+        
+        return new Result("成功","2000",null,true);
+    }
+
 }
